@@ -10,13 +10,16 @@
   main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
   h1 { font-size: 32px; line-height: 1.2; margin: 0 0 24px; }
   a { color: var(--accent); }
+  .yt { display: inline-block; margin: 0 0 24px; padding: 6px 12px; border: 2px solid var(--ink); font: 600 15px/1.4 Arial, sans-serif; }
   footer { margin-top: 48px; font-size: 15px; }
+  footer a { margin-right: 20px; }
 </style>
 </head>
 <body>
 <main>
   <h1>Channel Uploader</h1>
-  <p>Channel Uploader is a private tool. The owner of three YouTube channels uses it to upload their own videos to those channels and to set each video's title, description and thumbnail.</p>
+  <p class="yt">Uses YouTube API Services</p>
+  <p>Channel Uploader is a private tool. The owner of three YouTube channels uses it to upload their own videos to those channels, to add each video's title, description, thumbnail, subtitles and playlist, and to read the channels' own statistics.</p>
   <p>It is not offered to anyone else, and it does not access anyone else's account.</p>
   <p>The channels:</p>
   <ul>
@@ -24,7 +27,8 @@
     <li><a href="https://www.youtube.com/@RealEstateAIInsider">Real Estate AI Insider</a></li>
     <li><a href="https://www.youtube.com/@HistoryPlainlySpoken">History Plainly Spoken</a></li>
   </ul>
-  <footer><a href="privacy.html">Privacy policy</a></footer>
+  <p>By using Channel Uploader you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+  <footer><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></footer>
 </main>
 </body>
 </html>
